@@ -58,7 +58,9 @@ public class Player : MonoBehaviour
     void HandleScore()
     {
         score += Time.deltaTime * runSpeed;
-        uiManager.UpdateScore((int)score);
+
+        if (uiManager != null)
+            uiManager.UpdateScore((int)score);
     }
 
     void MoveCharacter()
@@ -168,14 +170,18 @@ public class Player : MonoBehaviour
     void GetCoins(Collider other)
     {
         coins++;
-        uiManager.UpdateCoins(coins);
+
+        if (uiManager != null)
+            uiManager.UpdateCoins(coins);
         other.gameObject.SetActive(false);
     }
 
     void HitObstacles()
     {
         currentLives--;
-        uiManager.UpdateLives(currentLives);
+
+        if (uiManager != null)
+            uiManager.UpdateLives(currentLives);
         animator.SetTrigger("Hit");
 
         if (currentLives <= 0)
