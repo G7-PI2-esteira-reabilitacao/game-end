@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3eb5f3de-570d-42e6-a8f7-251084477d34" name="Changes" comment="" />
+    <list default="true" id="3eb5f3de-570d-42e6-a8f7-251084477d34" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OpenPosePlugin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OpenPosePlugin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Resources/WideStraightPath.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Resources/WideStraightPath.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Scenes/App.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Scenes/App.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +16,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game2/Scripts/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Tile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/TileController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -61,7 +66,7 @@
       <updated>1630850918126</updated>
       <workItem from="1630850932529" duration="1281000" />
       <workItem from="1630853276142" duration="495000" />
-      <workItem from="1630854163692" duration="6097000" />
+      <workItem from="1630854163692" duration="7565000" />
     </task>
     <servers />
   </component>
