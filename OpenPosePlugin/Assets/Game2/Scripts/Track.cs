@@ -10,6 +10,10 @@ public class Track : MonoBehaviour
 
     private float trackEndPosition = 314f;
 
+    [SerializeField] private int trackIndex = 0;
+
+    [SerializeField] private int currenTrackIndex = 0;
+
     void Start()
     {
         //CreateTrackItems(coinsNumber,     coins, true);
@@ -52,7 +56,40 @@ public class Track : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             other.GetComponent<Player>().IncreaseSpeed();
-            transform.position = new Vector3(0, 0, transform.position.z + trackEndPosition * 2);
+            //transform.position = new Vector3(0, 0, transform.position.z + trackEndPosition * 2);
+
+            // if (trackIndex == 0)
+            // {
+            //     if (currenTrackIndex != 0)
+            //     {
+            //         transform.position = new Vector3(0, 0, (trackEndPosition * (2 + currenTrackIndex + 1)));
+            //     }
+            //     else
+            //     {
+            //         transform.position = new Vector3(0, 0, trackEndPosition * 2);
+            //     }
+            //     
+            //     currenTrackIndex++;
+            // }
+            // else
+            // {
+            //     if (transform.position.z == 0)
+            //     {
+            //         transform.position = new Vector3(0, 0, trackEndPosition * 2);
+            //     }
+            //     else
+            //     {
+            //         
+            //     }
+            //     transform.position = new Vector3(0, 0, transform.position.z * 2);
+            // }
+
+            currenTrackIndex += 2;
+
+            transform.position = new Vector3(0, 0, trackEndPosition * currenTrackIndex);
+
+            UnityEngine.Debug.Log(string.Format("Z: {0} | currenTrackIndex: {1}", trackEndPosition * currenTrackIndex,
+                                                currenTrackIndex));
         }
     }
 }
