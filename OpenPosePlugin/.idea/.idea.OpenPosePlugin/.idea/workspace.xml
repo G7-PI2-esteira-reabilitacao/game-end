@@ -3,10 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="3eb5f3de-570d-42e6-a8f7-251084477d34" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OpenPosePlugin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OpenPosePlugin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game2/Prefabs/Rock 01 prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game2/Prefabs/Rock 01 prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game2/Prefabs/Rock 04 prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game2/Prefabs/Rock 04 prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game2/Prefabs/bush01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game2/Prefabs/bush01.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game2/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game2/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game2/Scripts/CameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game2/Scripts/CameraFollow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game2/Scripts/Track.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game2/Scripts/Track.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game2/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game2/Scripts/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Scene/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NatureStarterKit2/Scene/New Terrain.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +39,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Build\OpenPosePlugin.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="E:\PI2\game-end\OpenPosePlugin\Build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -66,7 +80,7 @@
       <workItem from="1630853276142" duration="495000" />
       <workItem from="1630854163692" duration="8342000" />
       <workItem from="1633786930995" duration="1628000" />
-      <workItem from="1633865757058" duration="2286000" />
+      <workItem from="1633865757058" duration="2912000" />
     </task>
     <servers />
   </component>
