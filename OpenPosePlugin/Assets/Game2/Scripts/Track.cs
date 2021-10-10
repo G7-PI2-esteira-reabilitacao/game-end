@@ -12,7 +12,7 @@ public class Track : MonoBehaviour
 
     void Start()
     {
-        CreateTrackItems(coinsNumber,     coins, true);
+        //CreateTrackItems(coinsNumber,     coins, true);
         CreateTrackItems(obstaclesNumber, obstacles, false);
     }
 

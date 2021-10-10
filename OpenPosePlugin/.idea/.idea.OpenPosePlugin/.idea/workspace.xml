@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3eb5f3de-570d-42e6-a8f7-251084477d34" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OpenPosePlugin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OpenPosePlugin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game2/Animation/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game2/Animation/Player.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game2/Prefabs/CoinGold.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game2/Prefabs/CoinGold.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game2/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game2/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game2/Scripts/CameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game2/Scripts/CameraFollow.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game2/Scripts/Track.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game2/Scripts/Track.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NatureStarterKit2/Scene/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NatureStarterKit2/Scene/New Terrain.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <workItem from="1630853276142" duration="495000" />
       <workItem from="1630854163692" duration="8342000" />
       <workItem from="1633786930995" duration="1628000" />
-      <workItem from="1633865757058" duration="735000" />
+      <workItem from="1633865757058" duration="2286000" />
     </task>
     <servers />
   </component>
