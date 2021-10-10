@@ -12,11 +12,11 @@ public class Track : MonoBehaviour
 
     void Start()
     {
-        CreateTrackItems(coinsNumber,     coins);
-        CreateTrackItems(obstaclesNumber, obstacles);
+        CreateTrackItems(coinsNumber,     coins, true);
+        CreateTrackItems(obstaclesNumber, obstacles, false);
     }
 
-    void CreateTrackItems(Vector2 itemsNumber, GameObject[] items)
+    void CreateTrackItems(Vector2 itemsNumber, GameObject[] items, bool coin)
     {
         List<GameObject> itemsList      = new List<GameObject>();
         int              newItemsNumber = (int)Random.Range(itemsNumber.x, itemsNumber.y);
@@ -28,8 +28,17 @@ public class Track : MonoBehaviour
             float      randomPosition = Random.Range(itemPosition, itemPosition + 1);
 
             itemsList.Add(Instantiate(item, transform));
-            itemsList[i].transform.localPosition =
-                new Vector3(transform.position.x, transform.position.y, randomPosition);
+
+            if (coin)
+            {
+                itemsList[i].transform.localPosition =
+                    new Vector3(transform.position.x, transform.position.y + 0.8f, randomPosition);
+            }
+            else
+            {
+                itemsList[i].transform.localPosition =
+                    new Vector3(transform.position.x, transform.position.y, randomPosition);
+            }
 
             if (itemsList[i].GetComponent<ChangeLane>() != null)
             {
