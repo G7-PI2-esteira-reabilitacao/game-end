@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
     private bool        isInvisible = false;
     private float       jumpStart;
     private float       slideStart;
-    private int         currentLives = 3;
+    private int         currentLives = int.MaxValue;
     private int         coins;
     private float       score;
 
@@ -78,8 +78,8 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.LeftArrow)) ChangeLane(-1);
         else if (Input.GetKeyDown(KeyCode.RightArrow)) ChangeLane(1);
-        else if (Input.GetKeyDown(KeyCode.UpArrow)) Jump();
-        else if (Input.GetKeyDown(KeyCode.DownArrow)) Slide();
+        //else if (Input.GetKeyDown(KeyCode.UpArrow)) Jump();
+        //else if (Input.GetKeyDown(KeyCode.DownArrow)) Slide();
     }
 
     void ChangeLane(int direction)
